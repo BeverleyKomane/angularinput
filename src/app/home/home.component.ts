@@ -8,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
-
+name=""
+surname=""
+age=""
   ngOnInit() {
   }
-
+onClick(){
+  console.log(this.name);
+  console.log(this.surname);
+  console.log(this.age);
+}
 }
